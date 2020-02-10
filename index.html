@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Quizzy Quiz</title>
+        <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container mt-4 text-center">
+
+            <button class="btn btn-primary" id="start" type="button">Start Quiz</button>
+
+        </div>
+        <div id="quiz" style="display: none">
+            <div class="text-center" id="choices">
+
+                <h1 id="question"></h1>
+                <div class="row">
+                    <div button type="button" class="col btn btn-outline-dark" id="firstanswer" onclick="checkAnswer('firstanswer')" type="button"></div>
+                </div>
+                <div class="row">
+                    <div button type="button" class="col btn btn-outline-dark" id="secondanswer" onclick="checkAnswer('secondanswer')"type="button"></div>
+                </div>
+                <div class="row">
+                    <div button type="button" class="col btn btn-outline-dark" id="thirdanswer" onclick="checkAnswer('thirdanswer')" type="button"></div>
+                </div>
+                <div class="row">
+                    <div button type="button" class="col btn btn-outline-dark" id="fourthanswer" onclick="checkAnswer('fourthanswer')" type="button"></div>
+                </div>
+            </div>
+
+        </div>
+        
+        <div class="text-center" id="counter"></div>
+        <script src="questions.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
