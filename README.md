@@ -20,7 +20,7 @@ When time runs out and/or all questions are answered, the user is presented with
 
 ## Demo
 
-![App demo]((./assets/quizzy-quiz.gif)
+![App demo](./assets/quizzy-quiz.gif)
 
 ## Deployed link
 
